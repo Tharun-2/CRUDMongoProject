@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{97661A23-1496-4B3D-85D3-8C7B554F0728}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUDMongo", "src\CRUDMongo\CRUDMongo.csproj", "{7449E837-1F1C-4772-B70A-8AEEB43CBF0F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{29F3EF13-15E6-4131-96E5-FB44DE88BEFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUDMongo.Tests", "tests\CRUDMongo.Tests\CRUDMongo.Tests.csproj", "{8C5BBAA3-C54C-41D7-AA35-C8E695B77431}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7449E837-1F1C-4772-B70A-8AEEB43CBF0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7449E837-1F1C-4772-B70A-8AEEB43CBF0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7449E837-1F1C-4772-B70A-8AEEB43CBF0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7449E837-1F1C-4772-B70A-8AEEB43CBF0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C5BBAA3-C54C-41D7-AA35-C8E695B77431}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C5BBAA3-C54C-41D7-AA35-C8E695B77431}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C5BBAA3-C54C-41D7-AA35-C8E695B77431}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C5BBAA3-C54C-41D7-AA35-C8E695B77431}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7449E837-1F1C-4772-B70A-8AEEB43CBF0F} = {97661A23-1496-4B3D-85D3-8C7B554F0728}
+		{8C5BBAA3-C54C-41D7-AA35-C8E695B77431} = {29F3EF13-15E6-4131-96E5-FB44DE88BEFD}
+	EndGlobalSection
+EndGlobal

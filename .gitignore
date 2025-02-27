@@ -1,0 +1,6 @@
+bin/
+obj/
+*.log
+*.db
+node_modules/
+.env
